@@ -4,19 +4,36 @@ html, body {
     margin: 0;
 }
 
-#formulario {
+.prazo,.tarefa {
+    width: 20%;
     float:none;
     margin: auto;
 }
 
-.btn {
+.h1Lista,.h1Cadastrar {
+    text-align: center;
+}
+
+.divPrazo {
     margin-top: 2%;
+}
+
+.divCadasterar {
+    margin-top: 2%;
+}
+
+.divTarefa {
+    margin-top: 1%;
+}
+
+.btn {
     margin: auto;
     display: block;
-    width: 30%;
+    width: 20%;
 }
 
 #tabela {
+    padding-top: 2%;
     float:none;
     margin: auto;
     width: 60%;
@@ -31,4 +48,18 @@ html, body {
 .colAlert {
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+@media (max-width: 768px) {
+    .h1Lista,.h1Cadastrar {
+        text-align: left;
+    }
+
+    #tabela {
+        width: 100%;
+    }
+
+    .alert {
+        width: 100%;
+    }
 }
