@@ -1,0 +1,34 @@
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#formulario {
+    float:none;
+    margin: auto;
+}
+
+.btn {
+    margin-top: 2%;
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+
+#tabela {
+    float:none;
+    margin: auto;
+    width: 60%;
+}
+
+.alert {
+    float:none;
+    margin: auto;
+    width: 60%;
+}
+
+.colAlert {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
